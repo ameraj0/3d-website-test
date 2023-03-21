@@ -1,54 +1,13 @@
-<html lang = "en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="styles.css">
-
-    </head>
-    <body>
-        <h1>Test</h1>  
-        <p>1</p>
-        <p>2</p>
-
-        <canvas id="myCanvas"></canvas>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-        <script>
-          // Create a scene
-          const scene = new THREE.Scene();
-      
-          // Create a camera
-          const camera = new THREE.PerspectiveCamera(
-            75,
-            window.innerWidth / window.innerHeight,
-            0.1,
-            1000
-          );
-      
-          // Create a renderer
-          const renderer = new THREE.WebGLRenderer({ canvas: myCanvas });
-      
-          // Set the size of the renderer to the size of the window
-          renderer.setSize(window.innerWidth, window.innerHeight);
-      
-          // Add a cube to the scene
-          const geometry = new THREE.BoxGeometry();
-          const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-          const cube = new THREE.Mesh(geometry, material);
-          scene.add(cube);
-      
-          // Position the camera
-          camera.position.z = 5;
-      
-          // Animate the cube
-          function animate() {
-            requestAnimationFrame(animate);
-            cube.rotation.x += 0.01;
-            cube.rotation.y += 0.01;
-            renderer.render(scene, camera);
-          }
-          animate();
-        </script>
-    </body>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image" href="/src/assets/logo.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AM | Portfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
