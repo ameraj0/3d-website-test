@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "AI/ML Developer",
       icon: creator,
     },
   ];
@@ -116,57 +116,47 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Staging Coordinator",
+      company_name: "CISSDM",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2019 - Jan 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Configure and prepare hardware for client use. Primary focus in network Firewalls, Switches, and Access Points",
+        "Responsible for the remote deployment of networking hardware to client sites. Sites varied from retail stores, restaurants, banks, offices, and warehouses.",
+        "Experienced with configuring and deploying networking equipment from the following vendors: Cisco, Cisco Meraki, Viptela, Fortinet, Aruba, Velocloud, Palo Alto, Juniper, Cradlepoint, Digi",
+        "Utilized GUI/CLI for local configurations or web managed portal depending on the vendor/product.",
+        "Implemented Change Management practices to ensure visibility and client authorization on all change requests.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Tier 1 Network Support",
+      company_name: "CISSDM",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "October 2018 - July 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Serve as escalation point for Technical Services to diagnose and resolve complex customer issues where no clear path to resolution is present; facilitate escalation to higher level if necessary",
+        "Manage Enterprise Managed Security Services and Move, Add, Change, Delete requests.",
+        "Configure, troubleshoot, and maintain host and remote network routers, implement changes in rules sets, configurations, maintain, and manage backups of router configurations.",
+        "Outage response in real-time, assess and make recommendations for resolution and repair of remote or host site failures. Contribute to establishing disciplined, defined processes to deal with unplanned site outages.",
       ],
+
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Associate Technician",
+      company_name: "The Dream Junction",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "November 2017 - September 2018",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Diagnosis and repair of DTG Inkjet printers.",
+        "Preventative maintenance of electronic wiring and mechanical systems.",
+        "Responsible for daily upkeep of machinery and ensuring maximum uptime.",
+        "Worked with prototype machinery from the alpha stage to full production. Many issues had no documentation and had to be troubleshot on the fly.",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
   ];
   
   const testimonials = [
@@ -198,20 +188,20 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Stock Analysis AI/ML Project",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a machine learning application using a LSTM (Long Short-Term Memory) model to analyze time-series stock data and predict future stock prices. Built a Flask web application that enables users to input stock choices and receive recommendations on whether to buy or sell. Hosted on Heroku for easy accessibility. Integrated Python libraries, including Matplotlib, Keras, Tensorflow and NumPy, for data visualization and insights.",
       tags: [
         {
-          name: "react",
+          name: "AI/ML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Python",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Flask",
           color: "pink-text-gradient",
         },
       ],
@@ -219,9 +209,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Appointment Scheduling Application",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Developed an application that streamlines the creation and updating of student appointment times with school counselors. The application features log-in forms, text and error control message translation based on computer language settings, and time conversions from local time, main office, and UTC. CRUD capabilities were enabled from the GUI interface to the MySql database, and input validation and logical error checks were implemented to prevent appointments outside of business hours, overlapping appointments, and incorrect log in credentials. The application was built using Java JDK and JavaFX with MySQL Workbench.",
       tags: [
         {
           name: "react",
@@ -239,27 +229,7 @@ import {
       image: jobit,
       source_code_link: "https://github.com/",
     },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+  
   ];
   
   export { services, technologies, experiences, testimonials, projects };
